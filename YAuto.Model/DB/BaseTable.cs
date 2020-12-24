@@ -9,7 +9,7 @@ namespace YAuto.Model.DB
         /// <summary>
         /// 主键
         /// </summary>
-        [Key]
+        [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
         /// <summary>
