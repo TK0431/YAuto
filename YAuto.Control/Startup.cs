@@ -5,9 +5,11 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using YAuto.Model;
 
 namespace YAuto.Control
 {
@@ -24,6 +26,8 @@ namespace YAuto.Control
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            services.AddDbContext<YAutoContext>(p => p.UseMySQL(Configuration.GetConnectionString("CumstomerServiceConnection"), b => b.MigrationsAssembly("YAuto.Control")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
