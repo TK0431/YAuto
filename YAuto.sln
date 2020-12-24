@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YAuto.Model", "YAuto.Model\YAuto.Model.csproj", "{15B89B91-A82E-49C2-B06D-09CFECCF99DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YAuto.ViewModel", "YAuto.ViewModel\YAuto.ViewModel.csproj", "{73C9D66A-61D4-4332-89A4-AC913F4E568D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YAuto.IService", "YAuto.IService\YAuto.IService.csproj", "{72BFA0AE-F226-4C77-BDFC-4024EA4DEFE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YAuto.Service", "YAuto.Service\YAuto.Service.csproj", "{E076E20A-3757-4E11-B7B0-25A244FFDF04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YAuto.Control", "YAuto.Control\YAuto.Control.csproj", "{2468290C-E49C-4F72-843E-14C00490390B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YAuto.Utility", "YAuto.Utility\YAuto.Utility.csproj", "{60E78513-C11B-454D-85EE-654273B74AD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15B89B91-A82E-49C2-B06D-09CFECCF99DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15B89B91-A82E-49C2-B06D-09CFECCF99DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15B89B91-A82E-49C2-B06D-09CFECCF99DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15B89B91-A82E-49C2-B06D-09CFECCF99DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73C9D66A-61D4-4332-89A4-AC913F4E568D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73C9D66A-61D4-4332-89A4-AC913F4E568D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73C9D66A-61D4-4332-89A4-AC913F4E568D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73C9D66A-61D4-4332-89A4-AC913F4E568D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72BFA0AE-F226-4C77-BDFC-4024EA4DEFE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72BFA0AE-F226-4C77-BDFC-4024EA4DEFE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72BFA0AE-F226-4C77-BDFC-4024EA4DEFE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72BFA0AE-F226-4C77-BDFC-4024EA4DEFE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E076E20A-3757-4E11-B7B0-25A244FFDF04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E076E20A-3757-4E11-B7B0-25A244FFDF04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E076E20A-3757-4E11-B7B0-25A244FFDF04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E076E20A-3757-4E11-B7B0-25A244FFDF04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2468290C-E49C-4F72-843E-14C00490390B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2468290C-E49C-4F72-843E-14C00490390B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2468290C-E49C-4F72-843E-14C00490390B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2468290C-E49C-4F72-843E-14C00490390B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60E78513-C11B-454D-85EE-654273B74AD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60E78513-C11B-454D-85EE-654273B74AD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60E78513-C11B-454D-85EE-654273B74AD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60E78513-C11B-454D-85EE-654273B74AD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C08C5C6-E030-4248-B3CA-86F07263B264}
+	EndGlobalSection
+EndGlobal
